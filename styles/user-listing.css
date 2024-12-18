@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+h1 {
+    font-weight: bold;
+    color: #343a40;
+}
+table {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+th {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+.chip {
+    display: inline-block;
+    padding: 0.4em 0.9em;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.chip.active {
+    background-color: #28a745;
+}
+.chip.inactive {
+    background-color: #dc3545;
+}
+.chip.pending {
+    background-color: #ffc107;
+    color: #212529;
+}
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6 !important;
+}
